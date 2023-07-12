@@ -1,0 +1,24 @@
+.search-form{
+    position: relative;
+    
+    height: 46px;
+}
+.search-form .search-form__input{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    padding-left: 16px;
+    height: 100%;
+    outline: none;
+    border-radius: 12px;
+}
+.search-form .search-form__btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 8px;
+    height: 100%;
+    border-radius: 0 12px 12px 0;
+    
+}

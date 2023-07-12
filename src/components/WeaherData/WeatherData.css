@@ -1,0 +1,65 @@
+.weather{
+    padding: 20px;
+}
+.weather .weather__main-info{
+    
+}
+.weather .weather__main-info .weather__time{
+    color: rgb(24, 24, 24);
+    font-size: 15px;
+}
+.weather .weather__main-info .weather__city{
+    font-size: 24px;
+    font-weight: bold;
+}
+.weather .weather__main-info .weather__description{
+    font-size: 15px;
+    color: rgb(24, 24, 24);
+}
+.weather .weather__main-info .weather__temp{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 25px;
+}
+.weather .weather__main-info .weather__temp .weather-img{
+    width: 50px;
+    height: 50px;
+}
+.weather .weather__secondary{
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+}
+.weather .weather__secondary::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 35px;
+    width: 100%;
+    height: 1px;
+    background:rgba(96, 96, 96, 0.7);
+}
+.weather .weather__secondary::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 75px;
+    width: 100%;
+    height: 1px;
+    background: rgba(96, 96, 96, 0.7);
+}
+.weather .weather__secondary .colmn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.weather .weather__secondary .weather__secondary-el .weather__secondary-el_upper{
+    text-transform: uppercase;
+    color: rgb(57, 57, 57);
+    font-size: 13px;
+}
+.weather .weather__secondary .weather__secondary-el .weather__secondary-el_value{
+    font-weight: bold;
+}
